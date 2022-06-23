@@ -37,21 +37,21 @@ postMerge :
               - node --version 
         configFile : "./jest.config.ts"
         
-      - name: hoppscotch-js-sandbox     
-        path : "./packages/hoppscotch-js-sandbox/"
-        pattern: 
-          - "./src/__tests__/**/*.spec.ts"
+#       - name: hoppscotch-js-sandbox     
+#         path : "./packages/hoppscotch-js-sandbox/"
+#         pattern: 
+#           - "./src/__tests__/**/*.spec.ts"
         
-        framework : jest
+#         framework : jest
         
-#         preRun:
-#           command:
-#             - pnpm i  --shamefully-hoist=true 
+# #         preRun:
+# #           command:
+# #             - pnpm i  --shamefully-hoist=true 
         
-        postRun:
-            command:
-              - node --version 
-        configFile : "./jest.config.js" 
+#         postRun:
+#             command:
+#               - node --version 
+#         configFile : "./jest.config.js" 
         
         
         
